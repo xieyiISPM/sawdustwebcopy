@@ -1,4 +1,4 @@
-1. # Git clone set up
+# Git clone set up
 1. Clone the project to your C:\xampp\htdocs\
 2. Go to the folder application using cd command on your cmd or terminal
 3. Run *composer install* on your cmd or terminal
