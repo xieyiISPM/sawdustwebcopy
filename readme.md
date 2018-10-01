@@ -12,8 +12,9 @@
 8. Run *php artisan key:generate*
 9. Run *php artisan migrate* ( I get exception at this step, but it seems ok)
 11. go to C:\xampp\apache\conf\extra\httpd-vhosts.conf
+ 
  add: 
- '''
+ ```
  <VirtualHost *:80>
     ##ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "C:/xampp/htdocs/sawdustdev/public"
@@ -22,6 +23,7 @@
     ##CustomLog "logs/dummy-host2.example.com-access.log" common
 </VirtualHost>
 
-'''
+```
+
 10 Restart XAMPP apache server inside XAMPP  (or Run php artisan serve)
 11. Go to localhost:80
