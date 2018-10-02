@@ -26,13 +26,13 @@
             </li>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="/gallery">Gallery</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/about">About us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

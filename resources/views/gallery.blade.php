@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title')
-    About us
+    pictures
 @endsection
 @section('content')
-    <h1> About us</h1>
+    <h1> Gallery page</h1>
 @endsection

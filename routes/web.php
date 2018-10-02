@@ -11,22 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/jobs', function () {
-    return view('jobs');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/admin', function () {
-    return view('admin');
-});
+Route::get('/', 'PageController@index');
+Route::get('/jobs', 'PageController@jobs');
+Route::get('/about', 'PageController@about');
+Route::get('/contact', 'PageController@contact');
+Route::get('/admin', 'PageController@admin');
+Route::get('/gallery', 'PageController@gallery');
