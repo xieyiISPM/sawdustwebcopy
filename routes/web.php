@@ -17,3 +17,7 @@ Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 Route::get('/admin', 'PageController@admin');
 Route::get('/gallery', 'PageController@gallery');
+Route::get('/logout', 'PageController@logout');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
