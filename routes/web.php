@@ -12,12 +12,12 @@
 */
 
 Route::get('/', 'PageController@index');
-Route::get('/jobs', 'PageController@jobs');
+Route::get('/jobs', 'HomeController@jobs');
 Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 Route::get('/admin', 'PageController@admin');
 Route::get('/gallery', 'PageController@gallery');
-Route::get('/logout', 'PageController@logout');
+Route::get('/logout', 'HomeController@logout');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
