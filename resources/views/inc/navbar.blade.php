@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-light bg-light mt-15" >
     <div class="container">
-        <a class="navbar-brand" href="#"><img class="img-responsive center-block " src="img/logo.png"  width="120px" style="margin:0 auto;" ></a>
+        <a class="navbar-brand" href="/"><img class="img-responsive center-block " src="img/logo.png"  width="120px" style="margin:0 auto;" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
