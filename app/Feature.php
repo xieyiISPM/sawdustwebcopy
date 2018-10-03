@@ -12,4 +12,10 @@ class Feature extends Model
         return $this->belongsToMany('App\Option')
             ->withTimestamps();
     }
+
+    public function rooms()
+    {
+        return $this->belongsToMany('App\Room')
+            ->withTimestamps();
+    }
 }
