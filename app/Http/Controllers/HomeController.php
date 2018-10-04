@@ -24,15 +24,17 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        return view('home');
+    {   $title='Home';
+        return view('home')->with('title',$title);
     }
     public function logout(){
         Auth::logout();
-        return view('home');
+        $title='Logout';
+        return view('home')->with('title',$title);
     }
 
     public function jobs(){
-        return view('jobs');
+        $title="Jobs";
+        return view('jobs')->with('title',$title);
     }
 }
