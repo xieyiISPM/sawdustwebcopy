@@ -45,7 +45,7 @@
                     <div class="card-body">
                         <h5 class="card-title">About us</h5>
                         <p class="card-text">Ashby's Cabinetry will help meet your home cabinetry needs with top notch quality, materials, and service.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="about" class="btn btn-primary">About us</a>
                     </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Jobs</h5>
                         <p class="card-text">Check out Job status and setup. <br> </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="\jobs" class="btn btn-primary">My job status</a>
                     </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                     <img class="img-responsive " src="img/phone.png" alt="Card image cap" width="64px" style="margin:0 auto;"/>
                     <div class="card-body">
                         <h5 class="card-title">Contact us</h5>
-                        <p class="card-text">10865 Goodson Rd. Middleton, Idaho 83644 <br>Call (208) 590-3403 <br> Email: 2joshashby@gmail.com</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Ashby Cabinetry is here to provide you with more information, answer andy questions you may have </p>
+                            <a href="\contact" class="btn btn-primary">Reach us</a>
                     </div>
                     </div>
                 </div>
