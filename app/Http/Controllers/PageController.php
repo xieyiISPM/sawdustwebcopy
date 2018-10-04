@@ -8,10 +8,7 @@ use Illuminate\Http\Request;
 // command line use *php artisan make:controller PagesController*
 class PageController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
 
     public function index(){
         $title = 'Home';
@@ -43,8 +40,5 @@ class PageController extends Controller
         return view('contact')->with('title',$title);
     }
 
-    public function logout(){
-        Auth::logout();
-        return view('home');
-    }
+
 }

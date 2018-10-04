@@ -41,9 +41,11 @@
     <div class="col-sm-10">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Example checkbox
-        </label>
+        @if (! Auth::check())
+          <label class="form-check-label" for="gridCheck1">
+            Example checkbox
+          </label>
+        @endif
       </div>
     </div>
   </div>
