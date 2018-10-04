@@ -14,27 +14,33 @@ class PageController extends Controller
     }
 
     public function index(){
-        return view('index');
+        $title = 'Home';
+        return view('index')->with('title',$title);
     }
 
     public function about(){
-        return view('about');
+        $title="About us";
+        return view('about')->with('title', $title);
     }
 
     public function jobs(){
-        return view('jobs');
+        $title="Jobs";
+        return view('jobs')->with('title',$title);
     }
 
     public function gallery(){
-        return view('gallery');
+        $title='Gallery';
+        return view('gallery')->with('title',$title);
     }
 
     public function admin(){
-        return view('admin');
+        $title='Admin';
+        return view('admin')->with('title',$title);
     }
 
     public function contact(){
-        return view('contact');
+        $title='Contact us';
+        return view('contact')->with('title',$title);
     }
 
     public function logout(){

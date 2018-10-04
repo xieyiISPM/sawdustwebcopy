@@ -1,7 +1,5 @@
 @extends('layouts.app')
-@section('title')
-    home 
-@endsection
+
 @section('content')
     <!-- sliding images-->
     <div class="container-fluid">

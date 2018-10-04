@@ -1,10 +1,5 @@
 @extends('layouts.app')
 
-@section('title')
-
-    Login
-
-@endsection
 
 @section('content')
     <div class="container mt-5 mb-5  xl">
