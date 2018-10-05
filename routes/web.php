@@ -22,4 +22,17 @@ Route::get('/login', 'HomeController@login');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware(['password_expired'])->group(function () {
+        Route::get('/home', 'HomeController@index')->name('home');
+});
+
+
+
+
+
+Route::post('password/post_expired', 'Auth\ExpiredPasswordController@postExpired')
+        ->name('password.post_expired');
+Route::get('/password_expired', 'Auth\ExpiredPasswordController@expired')
+        ->name('password.expired');
+Route::get('/reset_password', 'Auth\ExpiredPasswordController@expired')
+        ->name('password.expired');
