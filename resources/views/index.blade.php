@@ -37,11 +37,11 @@
         </div>
 
         <!-- cardgroup -->
-        <div class="container mt-5">
+        <div class="container mt-5 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                    <img class="img-responsive center-block " src="img/group.png"  width="64px" style="margin:0 auto;" >
+                    <img class="img-responsive center-block mt-1" src="img/group.png"  width="64px" style="margin:0 auto;" >
                     <div class="card-body">
                         <h5 class="card-title">About us</h5>
                         <p class="card-text">Ashby's Cabinetry will help meet your home cabinetry needs with top notch quality, materials, and service.</p>
@@ -51,17 +51,17 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                    <img class="img-responsive center-block" src="img/jobs.png" alt="Card image cap" width="64px" style="margin:0 auto;" >
+                    <img class="img-responsive center-block mt-1" src="img/jobs.png" alt="Card image cap" width="64px" style="margin:0 auto;" >
                     <div class="card-body">
                         <h5 class="card-title">Jobs</h5>
-                        <p class="card-text">Check out Job status and setup. <br> </p>
+                        <p class="card-text">This is the special website for job management. Go to your account to check your job configuration <br> </p>
                         <a href="\jobs" class="btn btn-primary">My job status</a>
                     </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                    <img class="img-responsive " src="img/phone.png" alt="Card image cap" width="64px" style="margin:0 auto;"/>
+                    <img class="img-responsive mt-1" src="img/phone.png" alt="Card image cap" width="64px" style="margin:0 auto;"/>
                     <div class="card-body">
                         <h5 class="card-title">Contact us</h5>
                         <p class="card-text">Ashby Cabinetry is here to provide you with more information, answer andy questions you may have </p>

@@ -18,6 +18,8 @@ Route::get('/contact', 'PageController@contact');
 Route::get('/admin', 'PageController@admin');
 Route::get('/gallery', 'PageController@gallery');
 Route::get('/logout', 'HomeController@logout');
+Route::get('/login', 'HomeController@login');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

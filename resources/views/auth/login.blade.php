@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container mb-5" >
+<div class="jumbotrom text-center mt-5">
+    <h1  class="display-4"> Welcome Back</h1>
+    <p class="lead">This is Ashby cabinetry user website, please login to your account first </p>
+    <hr class="my-4">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -70,5 +74,6 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 @endsection

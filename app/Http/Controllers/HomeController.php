@@ -37,4 +37,9 @@ class HomeController extends Controller
         $title="Jobs";
         return view('jobs')->with('title',$title);
     }
+
+    public function login(){
+        $title='Login';
+        return view('auth.login')->with('title',$title);
+    }
 }

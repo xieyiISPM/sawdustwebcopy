@@ -9,7 +9,6 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="register">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -17,7 +16,6 @@
                     <ul>
                         <li><a href="#">Company Information</a></li>
                         <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -25,12 +23,11 @@
                     <ul>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3 info">
                     <h5>Information</h5>
-                    <p> Lorem ipsum dolor amet, consectetur adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                    <p> Ashby's Cabinetry will help meet your home cabinetry needs with top notch quality, materials, and service. </p>
                 </div>
             </div>
         </div>
@@ -39,7 +36,7 @@
                 <h2 class="logo"><a href="#"> LOGO </a></h2>
                 <div class="social-icons">
                     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/ashbyscabinetry/" class="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
                 </div>
             </div>
