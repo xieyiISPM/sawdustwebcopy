@@ -7,22 +7,22 @@
                 <div class="col-sm-3">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="\">Home</a></li>
                         <li><a href="register">Sign up</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <h5>About us</h5>
                     <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="\about">Company Information</a></li>
+                        <li><a href="\contact">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <h5>Support</h5>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
+                        <li><a href="\contact">Help desk</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3 info">

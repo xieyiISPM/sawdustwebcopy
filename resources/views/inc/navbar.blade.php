@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light bg-light mt-15" >
+<nav class="navbar navbar-expand-lg navbar-light mt-1 font-weight-bold " style="background-color:#d2dde3;" >
     <div class="container">
         <a class="navbar-brand" href="/"><img class="img-responsive center-block " src="img/logo.png"  width="120px" style="margin:0 auto;" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,7 +6,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <!--
