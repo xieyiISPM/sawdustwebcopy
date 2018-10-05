@@ -21,7 +21,7 @@ class AddAdminToUsersTable extends Migration
         DB::table('users')->insert(
             array(
                 'name' => 'superuser',
-                'email' => 'superuser@domain.com',
+                'email' => 'superuser@ashbeycabinets.com',
                 'is_admin' => true,
                 'password' => bcrypt('resurepus')
             )
@@ -35,7 +35,7 @@ class AddAdminToUsersTable extends Migration
      */
     public function down()
     {
-        DB::table('users')->where('email', '=', 'superuser@domain.com')->delete();
+        DB::table('users')->where('email', '=', 'superuser@ashbeycabinets.com')->delete();
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('is_admin');
         });
