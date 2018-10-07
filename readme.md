@@ -24,3 +24,23 @@
 ```
 11. Restart XAMPP apache server inside XAMPP  (or Run php artisan serve)
 12. Go to localhost:80
+
+
+# Heroku Setup
+1. Create a Heroku account
+2. Under personal click add New tab on the top-left then `create a new app`
+    - The app name has to be unique
+3. In the next page `Deploy` tab, choose deployment method as `GitHub`
+4. add our Github repo , `Deploy`
+5. In the project root folder add  new file `Procfile` within a line below:
+    ```
+    web: vendor/bin/heroku-php-apache2 public/
+    ```
+ 6. extra note: if we want to see exception, under config->app.php change to line below:
+ ```
+ 'debug' => env('APP_DEBUG', true),
+ ```
+ 7. delete content inside .gitignore since .env is in there. ( I am not sure if others matter)
+ 
+    
+
